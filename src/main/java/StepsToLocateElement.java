@@ -3,7 +3,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class StepsToLocateElement {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         //Trying to make an automatic click button on the Retail app
 
@@ -21,6 +21,12 @@ public class StepsToLocateElement {
 
         //Then we pass an Action
         signInElement.click();
+
+        //Add the pause from java to slow down Selenium
+        Thread.sleep(3_000);
+
+        //And quit again so it doesn't burn the pc
+        chromeDriver.quit();
 
 
 
