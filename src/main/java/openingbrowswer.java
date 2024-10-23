@@ -7,5 +7,10 @@ public class openingbrowswer {
 
         chromeDriver.get("https://www.facebook.com/login.php/");
 
+        //Closing the browser
+
+        chromeDriver.quit();
+
+
     }
 }
