@@ -17,7 +17,7 @@ public class LogoLocater {
         WebElement logoElement = chromeDriver.findElement(logoLocater);
         String logoText = logoElement.getText();
 
-        System.out.println(logoText);
+        System.out.println("\nThis is the Logo Text: \n" + logoText);
 
         chromeDriver.quit();
 
