@@ -22,6 +22,7 @@ public class StepsToLocateElement {
         //Then we pass an Action
         signInElement.click();
 
+
         //Add the pause from java to slow down Selenium
         Thread.sleep(3_000);
 
