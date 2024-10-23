@@ -1,6 +1,6 @@
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class openingbrowswer {
+public class OpeningBrowsersTitles {
     public static void main(String[] args) {
 
         ChromeDriver chromeDriver = new ChromeDriver();
